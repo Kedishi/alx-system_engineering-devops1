@@ -1,0 +1,12 @@
+When you type "https://www.google.com" in your browser and press Enter, several things happen behind the scenes to load the Google website on your screen.
+
+Your browser sends a request to a server to find the address of the Google website, which is called a DNS request.
+Once the server finds the address, your browser establishes a secure connection to the website using HTTPS, which keeps your data safe.
+The request may pass through a firewall, a security measure that checks if the request is safe.
+If the website gets a lot of visitors, a load-balancer distributes the requests across multiple servers to keep the website fast and accessible.
+The web server hosts the website's files and generates an HTML page with the content.
+If the website has interactive features, an application server may be involved to handle those tasks.
+The application server may interact with databases to retrieve data needed for the request.
+The web server and application server (if applicable) send the response back to your browser in the form of files that make up the web page.
+Your browser interprets the files and displays the web page on your screen, allowing you to interact with it.
+In summary, when you type "https://www.google.com" in your browser and press Enter, a series of steps, including DNS requests, secure connections, firewalls, load balancing, web servers, application servers, and databases, work together to deliver the Google website to your screen, so you can access and interact with it.
